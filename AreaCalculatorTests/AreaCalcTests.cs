@@ -15,7 +15,7 @@ namespace AreaCalculatorTests
             _figureService = new FigureService(
                 new List<IFigure> 
                 { 
-                    new Square(10),
+                    new Circle(10),
                     new Triangle(3, 4, 5)
                 });
         }

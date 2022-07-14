@@ -3,10 +3,10 @@ using System;
 
 namespace AreaCalculator.Figures
 {
-    public class Square : IFigure
+    public class Circle : IFigure
     {
         private readonly double _radius;
-        public Square(double radius)
+        public Circle(double radius)
         {
             _radius = radius;
         }
